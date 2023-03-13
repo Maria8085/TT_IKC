@@ -1,0 +1,33 @@
+.card {
+  max-width: 190px;
+  height: 400px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(29, 24, 56, 0.1);
+  border-radius: 10px;
+  padding: 15px 20px;
+  
+  .cardImage{
+    max-width: 150px;
+    height: 225px;
+    background: #F4F4F4;
+    border-radius: 5px;
+  }
+
+  .cardHeader{
+    padding: 10px 0;
+    .cardHeader_title{
+      font-family: "Montserrat-SemiBold", sans-serif;
+      font-size: 14px;
+      color: #1D1838;
+    }
+  }
+
+  .cardMain{
+    padding: 0;
+    .cardMain_info{
+      font-family: "Montserrat-Regular", sans-serif;
+      font-size: 12px;
+      color: #1D1838;
+    }
+  }
+}
